@@ -14,6 +14,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
+  // Base path for GitHub Pages - repository name
+  basePath: '/vsfs',
+  // Asset prefix for GitHub Pages
+  assetPrefix: '/vsfs',
   webpack: (config, { dev }) => {
     if (dev) {
       // 禁用 webpack 的热模块替换
