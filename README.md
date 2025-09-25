@@ -1,141 +1,249 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# 🚀 AskDegree - Portfolio Security & Compliance Platform
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+**Venture Studio & Fund Security Operations Platform** | CCO/CISO-as-a-Service
 
-## ✨ Technology Stack
+![AskDegree Logo](public/logo.svg)
 
-This scaffold provides a robust foundation built with:
+AskDegree is a comprehensive security and compliance management platform designed specifically for venture studios and funds. We centralize security operations across entire portfolios, enabling every portfolio company to meet enterprise and regulatory requirements without the overhead of individual hires or vendor sprawl.
+
+## 🎯 Project Status: MVP Ready
+
+### ✅ Current MVP Features
+
+#### 🏠 Landing Page Components
+- **Hero Section**: Compelling value proposition with animated elements and KPI metrics
+- **Problem Statement**: Clear articulation of portfolio security challenges
+- **Solution Overview**: Four core service offerings with visual cards
+- **Why It Wins**: Competitive advantages and ROI metrics
+- **Outcomes Section**: Measurable results and deliverables
+- **90-Day Pilot**: Detailed scope of work with timeline and pricing
+- **FAQ Section**: Comprehensive Q&A with white background for readability
+- **Next Steps**: Clear call-to-action and implementation path
+
+#### 🎨 Design & UX
+- **Modern Dark Theme**: Professional gradient backgrounds with high contrast
+- **Responsive Design**: Mobile-first approach with seamless desktop experience
+- **Smooth Animations**: Framer Motion powered micro-interactions and scroll reveals
+- **Consistent Branding**: Unified color palette (#0032eb primary) across all components
+- **Interactive Elements**: Hover states, transitions, and engaging UI components
+
+#### 🔧 Technical Implementation
+- **Next.js 15**: Latest React framework with App Router
+- **TypeScript**: Full type safety across the application
+- **Tailwind CSS**: Utility-first styling with custom design system
+- **shadcn/ui**: Premium component library with accessibility
+- **Framer Motion**: Production-ready animations and interactions
+- **Calendly Integration**: Seamless scheduling across all CTAs
+
+#### 📱 User Experience
+- **Navigation**: Sticky header with smooth scroll navigation
+- **Mobile Responsive**: Optimized for all device sizes
+- **Fast Loading**: Optimized performance and bundle size
+- **Accessibility**: WCAG compliant with proper ARIA labels
+- **SEO Ready**: Meta tags and structured data
+
+### 🚀 Production Features
+
+#### 🎯 Core Functionality
+- **Portfolio-Wide Coverage**: Centralized security management across multiple companies
+- **Fractional Officers**: On-demand CCO, AML Officer, CISO + support staff
+- **Compliance Frameworks**: SOC 2, HIPAA, PCI, AML, and investor DDQ support
+- **Penetration Testing**: Programmatic security assessments and vulnerability management
+- **Standardized Playbooks**: Unified controls, policies, and procedures
+
+#### 💼 Business Value
+- **Cost Efficiency**: 30-60% savings vs. ad-hoc vendor engagements
+- **Time-to-Revenue**: Pull forward enterprise deals by 1-2 quarters
+- **Risk Visibility**: Single dashboard for portfolio-wide security posture
+- **Audit Readiness**: Streamlined evidence collection and auditor coordination
+
+## 🛠️ Technology Stack
 
 ### 🎯 Core Framework
-- **⚡ Next.js 15** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+- **⚡ Next.js 15** - React framework with App Router
+- **📘 TypeScript 5** - Type-safe development
+- **🎨 Tailwind CSS 4** - Utility-first CSS framework
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
+### 🎨 UI & Animation
+- **🧩 shadcn/ui** - High-quality accessible components
+- **🎯 Lucide React** - Beautiful icon library
+- **🌈 Framer Motion** - Production-ready animations
+- **🎨 Radix UI** - Headless UI primitives
 
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
+### 📊 Data & State
+- **🐻 Zustand** - Lightweight state management
+- **🔄 TanStack Query** - Server state management
+- **✅ Zod** - TypeScript-first validation
 
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Axios** - Promise-based HTTP client
-
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation Node.js and TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
-
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
-
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
-
-## 🎯 Why This Scaffold?
-
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
+### 🗄️ Backend & Database
+- **🗄️ Prisma** - Next-generation ORM
+- **🔐 NextAuth.js** - Authentication solution
+- **🌐 Socket.io** - Real-time communication
 
 ## 🚀 Quick Start
 
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 ```bash
+# Clone the repository
+git clone https://github.com/archdtech/vsfs.git
+cd vsfs
+
 # Install dependencies
 npm install
 
+# Set up database
+npm run db:push
+
 # Start development server
 npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
+### Available Scripts
+```bash
+# Development
+npm run dev          # Start development server with hot reload
+npm run build        # Build for production
+npm run start        # Start production server
 
-## 🤖 Powered by Z.ai
+# Database
+npm run db:push      # Push schema changes to database
+npm run db:generate  # Generate Prisma client
+npm run db:migrate   # Run database migrations
+npm run db:reset     # Reset database
 
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
-
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
-
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
+# Code Quality
+npm run lint         # Run ESLint
+```
 
 ## 📁 Project Structure
 
 ```
 src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
+├── app/                    # Next.js App Router
+│   ├── page.tsx           # Main landing page
+│   ├── layout.tsx         # Root layout
+│   ├── globals.css        # Global styles
+│   └── api/               # API routes
+├── components/             # React components
+│   ├── landing/           # Landing page components
+│   │   ├── Navigation.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Problem.tsx
+│   │   ├── Solution.tsx
+│   │   ├── WhyItWins.tsx
+│   │   ├── Outcomes.tsx
+│   │   ├── PilotSOW.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── NextSteps.tsx
+│   │   └── Footer.tsx
+│   └── ui/                # shadcn/ui components
+├── hooks/                  # Custom React hooks
+├── lib/                    # Utility functions
+│   ├── db.ts              # Database client
+│   ├── utils.ts           # Helper functions
+│   └── socket.ts          # Socket.io configuration
+└── public/                 # Static assets
+    ├── images/            # Cover images
+    ├── logo.svg           # Company logo
+    └── favicon.ico        # Favicon
 ```
 
-## 🎨 Available Features & Components
+## 🎨 Design System
 
-This scaffold includes a comprehensive set of modern web development tools:
+### Color Palette
+- **Primary**: #0032eb ( vibrant blue)
+- **Accent**: #0052ff (brighter blue)
+- **Dark Background**: #070A16 (near black)
+- **Light Background**: #ffffff (white for FAQ section)
+- **Text**: 
+  - Primary: #ffffff (white on dark)
+  - Secondary: #0f172a (dark gray on white)
 
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
+### Typography
+- **Headings**: Inter, font-black, responsive sizes
+- **Body**: Inter, regular/medium, optimized readability
+- **Accent**: Gradient text effects for key messages
 
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
+### Components
+- **Buttons**: Gradient backgrounds with hover animations
+- **Cards**: Subtle borders with backdrop blur effects
+- **Navigation**: Sticky header with smooth scroll
+- **Forms**: shadcn/ui components with validation
 
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
+## 🌐 Live Demo
 
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Axios + TanStack Query
-- **State Management**: Simple and scalable with Zustand
+View the live application: [https://archdtech.github.io/vsfs](https://archdtech.github.io/vsfs)
 
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
+## 🚀 Deployment
 
-## 🤝 Get Started with Z.ai
+### GitHub Pages
+This project is configured for automatic deployment to GitHub Pages:
 
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+1. **Build Process**: 
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy to GitHub Pages**:
+   - Built files are automatically deployed to the `gh-pages` branch
+   - Custom domain configuration available
+   - HTTPS enabled by default
+
+### Environment Variables
+Create a `.env.local` file for local development:
+```env
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-secret-key
+DATABASE_URL=your-database-url
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🎯 Roadmap
+
+### Phase 1: MVP Enhancement (Current)
+- [x] Complete landing page with all sections
+- [x] Responsive design optimization
+- [x] Calendly integration
+- [x] GitHub Pages deployment
+- [ ] Performance optimization
+- [ ] SEO improvements
+
+### Phase 2: Backend Integration
+- [ ] User authentication system
+- [ ] Dashboard development
+- [ ] Portfolio management features
+- [ ] Real-time analytics
+- [ ] API integrations
+
+### Phase 3: Advanced Features
+- [ ] Automated compliance scanning
+- [ ] Integration with security tools
+- [ ] Advanced reporting features
+- [ ] Mobile app development
+- [ ] Enterprise features
+
+## 📞 Contact
+
+**AskDegree Team**
+- 📧 hello@askdegree.com
+- 🌐 [https://askdegree.com](https://askdegree.com)
+- 📅 [Schedule a Consultation](https://calendly.com/d/crjf-kqg-sp2/discovery-call)
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+Built with ❤️ for venture studios and funds. Supercharged by modern web technology 🚀

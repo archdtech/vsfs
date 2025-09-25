@@ -14,21 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "AskDegree - Enterprise Security & Compliance for Venture Portfolios",
+  description: "Centralize security and compliance across your entire portfolio. Get enterprise-grade protection, faster sales cycles, and reduced risk with our CCO/CISO-as-a-Service solution.",
+  keywords: ["AskDegree", "Security", "Compliance", "Venture Capital", "Portfolio Management", "SOC 2", "HIPAA", "CCO", "CISO", "Enterprise Security"],
+  authors: [{ name: "AskDegree Team" }],
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "AskDegree - Enterprise Security & Compliance for Venture Portfolios",
+    description: "Scale coverage, slash costs, and accelerate time-to-revenue with portfolio-wide security and compliance management.",
+    url: "https://askdegree.com",
+    siteName: "AskDegree",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "AskDegree - Enterprise Security & Compliance",
+    description: "Portfolio-wide security and compliance management for venture studios and funds.",
   },
 };
 
